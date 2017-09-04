@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Calculator</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+<ion-card>
+  <ion-card-content class="resultsCardContent">
+   <span>{{result}}</span>
+  </ion-card-content>
+</ion-card>
+
+  <ion-list>
+
+  <ion-item>
+    <ion-input type="text" placeholder="First Number" [(ngModel)]="fstNum" ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="text" placeholder="Second Number" [(ngModel)]="scdNum"  ></ion-input>
+  </ion-item>
+
+  </ion-list>
+
+<button ion-button (click)="add()">Add</button><br>
+<button ion-button (click)="minus()">Subtract</button><br>
+<button ion-button (click)="multiply()" >Multiply</button><br>
+<button ion-button (click)="divide()" >Divide</button><br>
+<button ion-button (click)="clear()" >Clear</button>
+
+</ion-content>
