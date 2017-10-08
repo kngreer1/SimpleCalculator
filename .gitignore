@@ -1,15 +1,1 @@
-SimpleCalculator/resources/*
-SimpleCalculator/hooks/*
-SimpleCalculator/www/*
 SimpleCalculator/node_modules/*
-SimpleCalculator/.editorconfig
-SimpleCalculator/config.xml
-SimpleCalculator/ionic.config.json
-SimpleCalculator/package.json
-SimpleCalculator/README.md
-SimpleCalculator/src/assets/icon/favicon.ico
-SimpleCalculator/src/declarations.d.ts
-SimpleCalculator/src/manifest.json
-SimpleCalculator/src/service-worker.js
-SimpleCalculator/tsconfig.json
-SimpleCalculator/tslint.json
